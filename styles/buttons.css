@@ -1,0 +1,52 @@
+button{
+    cursor: pointer;
+}
+
+.to-section_Button{
+    width: fit-content;
+    padding: var(--add-remove_Button_vertical-padding) var(--add-remove_Button_horizontal-padding);
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    border: none;
+    border-radius: var(--radius-default);
+}
+
+.to-section_Button:hover{
+    background-color: var(--color-brand-2);
+}
+
+.add-remove_Button{
+    width: fit-content;
+    padding: var(--add-remove_Button_vertical-padding) var(--add-remove_Button_horizontal-padding);
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    border: none;
+    border-radius: var(--radius-default);
+}
+
+.add-remove_Button:hover{
+    background-color: var(--color-brand-2);
+}
+
+.delete-vacant_job-button{
+    background-image: url("../assets/img/trash_can.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--delete-vacant_job-button_width);
+    height: var(--delete-vacant_job-button_width);
+    border: none;
+    border-radius: var(--radius-default);
+    background-color: var(--color-grey-5);
+}
+
+.delete-vacant_job-button:hover{
+    background-image: url("../assets/img/trash\ _can-hover.svg");
+    background-color: var(--color-grey-3);
+}
+
+
+@media(max-width: 991px){
+    .add-remove_Button{
+        width: 100%;
+    }    
+}

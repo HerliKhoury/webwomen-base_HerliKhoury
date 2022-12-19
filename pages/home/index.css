@@ -1,1 +1,130 @@
-/* Desenvolva sua estilização aqui... */
+.header-image{
+    background-image: url("../../assets/img/header-bg.svg");
+    min-height: var(--headder-img_min-height);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.headder-div{
+    height: fit-content;
+    align-self: center;
+    gap: var(--headder-div_gap);
+}
+
+.logo{
+    max-height: var(--logo_height);
+    width: fit-content;
+}
+
+.summary-div{
+    gap: var(--summary-div_gap);
+}
+
+.job-wrap-div{
+    margin-top: var(--job-wrap-div_margin-top);
+    gap: var(--job-wrap-div_gap);
+}
+
+.job-div-title{
+    margin-bottom: var(--job-div-title_margin-bottom);
+}
+
+.job-opportunities-div{
+    max-width: var(--job-opportunities-div_width);
+}
+
+.job-card-wrap-div{
+    padding: var(--job-card-wrap-div-padding);
+    gap: var(--job-card-wrap-div_gap);
+    border: none;
+    border-radius: var(--radius-default);
+}
+
+.list-div{
+    gap: var(--list-div_gap);
+}
+
+.company-location-div{
+    margin-top: var(--company-location-div_margin-top);
+    width: fit-content;
+}
+
+.job-info_div{
+    margin-right: var(--company-location_div_margin-right);
+}
+
+.job-modality{
+    min-height: fit-content;
+    padding:  0 var(--job-modality_padding-horizontal);
+    margin-right: var(--job-modality_margin-right);
+    align-self:flex-end;
+    border: none;
+    border-radius: var(--radius-default);
+    text-align: center;
+}
+
+.bottom-btn-div{
+    justify-content: space-between;
+}
+
+.wrap-selected-div{
+    border: none;
+    border-radius: var(--radius-default);
+    padding: var(--job-card-wrap-div-padding);
+    margin-top: 5.8rem; 
+    gap: var(--wrap-selected-div);
+}
+
+.shadow{
+    height: var(--shadow_height);
+    border-radius: var(--shadow-radius);
+}
+
+.shadows-div{
+    gap: var(--shadows-div_gap);
+}
+
+.shadows-wrap{
+    gap: var(--shadows-wrap_gap);
+}
+
+.bottom-div{
+    gap: var(--bottom-div_gap);
+}
+
+.selected-opportunities{
+    min-width: 40%;
+}
+
+.job-selected-bottom_div{
+    margin-top: var(--job-selected-bottom-div_margin-top);
+    justify-content: space-between;
+}
+
+.job-selected-bootm{
+    gap: 2rem;
+}
+
+
+@media(max-width: 991px){
+    .wrap-selected-div{
+        margin-top: 0; 
+        max-width: var(--job-opportunities-div_width);
+    }
+    .job-wrap-div{
+        flex-direction: column;
+        gap: var(--job-wrap-div_gap);
+        justify-items: center;
+    }
+    .bottom-btn-div{
+        flex-direction: column;
+        gap: var(--bottom-btn-div_gap);
+    }
+    .job-modality{
+        height: fit-content;
+        align-self: center;
+    }
+
+}

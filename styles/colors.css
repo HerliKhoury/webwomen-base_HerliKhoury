@@ -1,0 +1,28 @@
+.grey-5_c{
+    color: var(--color-grey-5);
+}
+
+.grey-3_c{
+    color: var(--color-grey-3);
+}
+
+.grey-1_c{
+    color: var(--color-grey-1);
+}
+
+.grey-2_c{
+    color: var(--color-grey-2);
+}
+
+
+.grey-6_bg{
+    background-color: var(--color-grey-6);;
+}
+
+.grey-3_bg{
+    background-color: var(--color-grey-3);;
+}
+
+.grey-5_bg{
+    background-color: var(--color-grey-5);;
+}

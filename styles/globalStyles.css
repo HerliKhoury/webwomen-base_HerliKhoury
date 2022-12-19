@@ -20,7 +20,9 @@ img {
   --color-grey-4:  #e9ecef;
   --color-grey-5:  #f1f3f5;
   --color-grey-6:  #ffffff;
+
   --radius-default: 0.5rem;
+  --shadow-radius: 2rem;
 
   --title-1: 3rem;
   --title-2: 2.5rem;
@@ -31,10 +33,52 @@ img {
   --text-1:  1.125rem;
   --text-2:  1rem;
   --text-3:  0.875rem;
+
+  --Weight_regular: 400;
+  --Weight_SemiBold: 600;
+
+  /* paddings */
+  --add-remove_Button_horizontal-padding: 3.125rem;
+  --add-remove_Button_vertical-padding: 0.75rem;
+  --job-card-wrap-div-padding: 2.375rem;
+  --job-modality_padding-horizontal: 0.625rem;
+
+  /* widths */
+  --delete-vacant_job-button_width: 2.813rem;
+  --job-opportunities-div_width: 51.125rem;
+
+
+  /* heights */
+  --headder-img_min-height: 45.938rem;
+  --logo_height: 1.5rem;
+  --job-modality_height: 1.875rem;
+  --shadow_height: 1rem;
+
+  /* gaps */
+  --headder-div_gap: 4.125rem;
+  --summary-div_gap: 2rem;
+  --job-card-wrap-div_gap: 1.75rem;
+  --list-div_gap: 2rem;
+  --job-wrap-div_gap: 2.438rem;
+  --wrap-selected-div: 2.625rem;
+  --shadows-div_gap: 1rem;
+  --shadows-wrap_gap: 0.30rem;
+  --bottom-div_gap: 2rem;
+  --job-selected-bottom-div_gap: 2rem;
+  --bottom-btn-div_gap: 2rem;
+  
+  /* margin */
+  --job-wrap-div_margin-top: 3.75rem;
+  --job-div-title_margin-bottom: 3.75rem;
+  --company-location_div_margin-right: 2rem;
+  --company-location-div_margin-top: 1.125rem;
+  --job-modality_margin-right: 2rem;
+  --job-selected-bottom-div_margin-top: 1.25rem;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--color-grey-5);
 }
 
 .container {
